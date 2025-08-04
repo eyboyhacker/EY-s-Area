@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(290deg,rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884), rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884));
+    padding: 0;
+    margin: 0;
+
+}
+.Red{
+    color: red;
+}
+.title{
+    background-color: blue;
+    color: white;
+   text-align: center;
+   margin-top: 0;
+}
+.Size{
+    width: 510px;
+    margin-left: 120px;
+}
+.box{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.EY{
+    color:rgb(0, 255, 255);
+}
+.green{
+    color: rgba(49, 117, 32, 0.918);
+}
+#Fire{
+    color: red;
+}
+.light{
+    color: black;
+}
+.unit{
+    margin-left: 900px;
+    margin-top: -70px;
+}
+.join{
+    margin-left: 300px;
+}
