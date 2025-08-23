@@ -2,7 +2,6 @@ body{
     background: linear-gradient(290deg,rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884), rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884));
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 .Red{
     color: red;
@@ -37,19 +36,37 @@ a{
 }
 .unit{
     margin-left: 900px;
-    margin-top: -70px;
-    background-color: white;
-    width: 155px;
+    margin-top: -58px;
+     background-color: white;
+     width: 155px;
 }
 .join{
     margin-left: 300px;
     background-color: white;
-    width: 155px;
+     width: 130px;
 }
 .bold{
-text-align: center;
+    text-align: center;
     font-size: 20px;
-    font-family:Impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
+.Section{
+    background-color: black;
+    border-radius: 5px 3px 6px 2px;
+    width: 75px;
+    color: white;
+}
+.Section::after{
+    content: "";
+    background-color: red;
+    border-radius: 2px 1px;
+    position: absolute;
+    left: 2px;
+    bottom: -35px;
+    width: 5vw;
+    height: 6px;
+}
+iframe{
+    width: 55vw;
+    height: 52vh;
+}
