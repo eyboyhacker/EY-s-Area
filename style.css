@@ -2,6 +2,7 @@ body{
     background: linear-gradient(290deg,rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884), rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884));
     padding: 0;
     margin: 0;
+    position: relative;
 }
 .Red{
     color: red;
@@ -13,6 +14,10 @@ body{
    margin-top: 0;
 }
 .Size{
+    width: 510px;
+    margin-left: 120px;
+}
+.Shape{
     width: 510px;
     margin-left: 120px;
 }
@@ -69,4 +74,27 @@ a{
 iframe{
     width: 55vw;
     height: 52vh;
+}
+@media(max-width: 800px){
+    .Size{
+        max-width: 250px;
+        margin-left: 30px;
+     margin-right: -100px;
+    }
+    .Shape{
+        max-width: 250px;
+        margin-left: 9px;
+    }
+    .join{
+        margin-left: 80px;
+        font-size: 25px;
+        width: 100px;
+    }
+    .unit{
+        margin-left: 379px;
+        margin-top: -50px;
+        font-size: 25px;
+        width: 118px;
+    }
+
 }
