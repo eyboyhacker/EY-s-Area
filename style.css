@@ -2,8 +2,6 @@ body{
     background: linear-gradient(290deg,rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884), rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884));
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    position: relative;
 }
 .Red{
     color: red;
@@ -15,10 +13,6 @@ body{
    margin-top: 0;
 }
 .Size{
-    width: 510px;
-    margin-left: 120px;
-}
-.Shape{
     width: 510px;
     margin-left: 120px;
 }
@@ -62,43 +56,17 @@ a{
     width: 75px;
     color: white;
 }
-
+.Section::after{
+    content: "";
+    background-color: red;
+    border-radius: 2px 1px;
+    position: absolute;
+    left: 2px;
+    bottom: -35px;
+    width: 5vw;
+    height: 6px;
+}
 iframe{
     width: 55vw;
     height: 52vh;
-}
-@media(max-width: 800px){
-    body{
-        background: linear-gradient(359deg,rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884), rgba(38, 219, 195, 0.959), rgba(9, 190, 100, 0.945), rgba(255, 38, 0, 0.884));
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        position: relative;
-}
-    .Size{
-        max-width: 250px;
-        margin-left: -250px;
-        position: absolute;
-        bottom: 1225px;
-        left: 310px;
-    }
-    .Shape{
-        max-width: 250px;
-        margin-left: 50px;
-    }
-    .join{
-        margin-left: 125px;
-        font-size: 25px;
-        width: 100px;
-    }
-    .unit{
-        margin-left: 125px;
-        position: absolute;
-        top: 690px;
-        font-size: 25px;
-        width: 118px;
-    }
-    .bold{
-        margin-top: 390px;
-    }
 }
